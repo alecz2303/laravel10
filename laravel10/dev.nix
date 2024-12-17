@@ -18,7 +18,7 @@
   # Enable to install MySQL/MariaDB
   services.mysql = {
     enable = true;
-    package = pkgs.mariadb;
+    package = pkgs.mysql80;
   };
 
   # Enable to install PostgreSQL
